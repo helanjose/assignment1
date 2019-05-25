@@ -61,56 +61,70 @@
     position: relative;
     width: 800px;
     height: 800px;
-    background-color:black;
-    left: 70px;
+    background-color:white;
+    left: 330px;
 }
 #port{
     color: rgb(20, 124, 107);
-    border-bottom: solid white;
-    padding: 3px;
+    border-bottom: solid rgba(128, 128, 128, 0.89);
+    
+    padding: 10px;
     text-align: center;
 }
 div.gallery1 {
     position: fixed;
     margin: 5px;
-    border: solid black;
+    padding:20px;
     width: 200px;
     height: 200px;
-
-  }
-  
+    left: 363px;
+}
  
   div.gallery2 {
-    position: relative;  
-    width: 200px;
-    height:200px;
-    top: 1px;
-    border:  solid black;
-    left:450px;
+    position: fixed;  
+    padding:20px;
+  
+    top: 185px;
+    
+    left:620px;
   }
   div.gallery3 {
-    position: relative;  
-    width: 200px;
-    height: 200px;
-    left:225px;
-    top:1px;
-    border: solid black;
+    position: fixed;  
+    padding:20px;
+    left:870px;
+    top:185px;
+    
+  }
+  div.gallery4 {
+    position: fixed;  
+    padding:20px;
+    left:363px;
+    top:420px;
+    
+  }
+  div.gallery5 {
+    position: fixed;  
+    padding:20px;
+    left:620px;
+    top:420px;
+    
   }
   
   
   div.desc1 {
     position: fixed;
-    top:300px;  
+    top:353px;  
     padding:0;
     width:200px;
     height: 50px;
     text-align: center;
-    background-color: rgb(0, 119, 128)
+    background-color: rgb(0, 119, 128);
+    left: 388px;
   }
   div.desc2 {
     position: fixed;
-    left:533px;
-    top: 297px;
+    left:640px;
+    top: 353px;
     padding:0;
     width:200px;
     height: 50px;
@@ -119,12 +133,33 @@ div.gallery1 {
   }
   div.desc3{
     position: fixed;
-    top:500px;  
+    top:353px;  
     padding:0;
     width:200px;
     height: 50px;
     text-align: center;
-    left:500;
+    left:890px;
+    background-color: rgb(0, 119, 128)
+  }
+  div.desc4{
+    position: fixed;
+    top:587px;  
+    padding:0;
+    width:200px;
+    height: 50px;
+    text-align: center;
+    left:383px;
+    background-color: rgb(0, 119, 128)
+  }
+  
+  div.desc5{
+    position: fixed;
+    top:587px;  
+    padding:0;
+    width:200px;
+    height: 50px;
+    text-align: center;
+    left:640px;
     background-color: rgb(0, 119, 128)
   }
   
